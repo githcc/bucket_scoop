@@ -32,10 +32,8 @@
       2. scoop bucket add githcc https://github.com/githcc/bucket_self_scoop
       3. scoop install aria2
       4. scoop idea-ultimate
-         1. 可能会安装失败
       5. scoop install WeChat nodejs Motrix finalshell Obsidian aliyundrive
-      6. scoop install vcredist2022
-         1. 用于RaiDrive，需要重启
+      6. scoop install vcredist2022 RaiDrive
     ```
 
 ## bucket来源网站
