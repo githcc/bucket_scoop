@@ -1,2 +1,51 @@
-# bucket_scoop
-用于汇总软件相对应的bucket，对main进行补充
+## 说明
+1. 用于汇总软件相对应的bucket，对main进行补充
+2. 本项目合并入scoop官方项目
+
+## 我的软件列表
+1. [aliyundrive](https://github.com/akirco/aki-apps)
+2. [aria2](https://github.com/akirco/aki-apps)
+3. [Calibre](https://github.com/ScoopInstaller/Extras)
+4. [Motrix](https://github.com/ScoopInstaller/Extras)
+5. [Obsidian](https://github.com/ScoopInstaller/Extras)
+6. [wechat](https://github.com/ScoopInstaller/Extras)
+7. [finalshell](https://github.com/ViCrack/scoop-bucket)
+8. [jianying](https://github.com/magicedy/scoop-bucket-m)
+9. [wps](https://github.com/WinApps-share/WinApps-bucket)
+10. [idea-ultimate win11无法安装](https://github.com/ScoopInstaller/Extras)
+11. [xmind](https://github.com/wholegale39/onetab)
+12. [wegame](https://github.com/akirco/aki-apps)
+
+## 安装scoop
+    ```
+    # 设置 PowerShell 执行策略
+    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+    # 下载安装脚本
+    irm get.Scoop.sh -outfile 'install.ps1'
+    # 执行安装, --ScoopDir 参数指定 Scoop 安装路径 主要是考虑到假如默认路径含中文
+    .\install.ps1 -ScoopDir 'C:\Scoop'
+    ```
+
+## 安装软件
+    ```
+      1. scoop install 7zip git
+      2. scoop bucket add githcc https://github.com/githcc/bucket_self_scoop
+      3. scoop install aria2
+      4. scoop idea-ultimate
+         1. 可能会安装失败
+      5. scoop install WeChat nodejs Motrix finalshell Obsidian aliyundrive
+      6. scoop install vcredist2022
+         1. 用于RaiDrive，需要重启
+    ```
+
+## bucket来源网站
+1.  [Scoop Directory](https://rasa.github.io/scoop-directory/search)
+2.  [scoop官网](https://Scoop.sh/)
+
+## 项目拉取
+[Ash258](https://github.com/Ash258/GenericBucket)
+
+## 参考
+1. github
+   1. [Scoop](https://github.com/githcc/knowledge_self/blob/main/%E8%BD%AF%E4%BB%B6/%E4%BD%BF%E7%94%A8/Scoop.md)
+   2. [win系统安装](https://github.com/githcc/knowledge_self/blob/main/%E7%B3%BB%E7%BB%9F/%E5%AE%89%E8%A3%85/win.md)

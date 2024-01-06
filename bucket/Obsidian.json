@@ -1,0 +1,26 @@
+{
+    "homepage": "https://obsidian.md/",
+    "version": "1.4.16",
+    "description": "obsidian，一款笔记工具，支持双链和离线使用",
+    "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.4.16/Obsidian.1.4.16.exe#/dl.7z",
+    "hash": "eb60f93f3ce10c2f4d0f8ab45ea0d457a9975f5b2f108691773951ce02d85526",
+    "installer": {
+        "script": [
+            "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+            "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
+        ]
+    },
+    "bin": "Obsidian.exe",
+    "shortcuts": [
+        [
+            "Obsidian.exe",
+            "Obsidian"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/obsidianmd/obsidian-releases"
+    },
+    "autoupdate": {
+        "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v$version/Obsidian.$version.exe#/dl.7z"
+    }
+}
