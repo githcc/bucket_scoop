@@ -49,7 +49,7 @@ scoop install wechat
 scoop bucket rm Extras
 
 ### 其它
-Obsidian RaiDrive 
+Obsidian RaiDrive Typora
 
 ## bucket来源网站
 1.  [Scoop Directory](https://rasa.github.io/scoop-directory/search)
