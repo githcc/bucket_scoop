@@ -28,13 +28,27 @@
 
 ## 安装软件
     ```
-      1. scoop install 7zip git
-      2. scoop bucket add githcc https://github.com/githcc/bucket_self_scoop
-      3. scoop install aria2
-      4. scoop idea-ultimate
-      5. scoop install WeChat nodejs Motrix finalshell Obsidian aliyundrive
-      6. scoop install vcredist2022 RaiDrive
+      scoop install 7zip git
+      scoop bucket add githcc https://github.com/githcc/bucket_scoop
+      scoop install aria2
+      scoop install idea-ultimate
+      scoop install vlc
+      scoop install finalshell  
+      scoop install vcredist2022
+      scoop install notepadplusplus
+      scoop install wps
+      scoop install xmind
+      scoop install jianying
+      scoop install Motrix
+      scoop bucket rm githcc
     ```
+### 下列版本更新较为频繁
+scoop bucket add Extras https://github.com/ScoopInstaller/Extras
+scoop install nodejs
+scoop install wechat
+scoop bucket rm Extras
+
+Obsidian RaiDrive 这两个可能需要找非scoop的了
 
 ## bucket来源网站
 1.  [Scoop Directory](https://rasa.github.io/scoop-directory/search)
