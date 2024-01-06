@@ -48,7 +48,8 @@ scoop install nodejs
 scoop install wechat
 scoop bucket rm Extras
 
-Obsidian RaiDrive 这两个可能需要找非scoop的了
+### 其它
+Obsidian RaiDrive 
 
 ## bucket来源网站
 1.  [Scoop Directory](https://rasa.github.io/scoop-directory/search)
