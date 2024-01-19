@@ -5,16 +5,11 @@
 ## 我的软件列表
 1. [aliyundrive](https://github.com/akirco/aki-apps)
 2. [aria2](https://github.com/akirco/aki-apps)
-3. [Calibre](https://github.com/ScoopInstaller/Extras)
-4. [Motrix](https://github.com/ScoopInstaller/Extras)
-5. [Obsidian](https://github.com/ScoopInstaller/Extras)
-6. [wechat](https://github.com/ScoopInstaller/Extras)
-7. [finalshell](https://github.com/ViCrack/scoop-bucket)
-8. [jianying](https://github.com/magicedy/scoop-bucket-m)
-9. [wps](https://github.com/WinApps-share/WinApps-bucket)
-10. [idea-ultimate win11无法安装](https://github.com/ScoopInstaller/Extras)
-11. [xmind](https://github.com/wholegale39/onetab)
-12. [wegame](https://github.com/akirco/aki-apps)
+3. [finalshell](https://github.com/ViCrack/scoop-bucket)
+4. [jianying](https://github.com/magicedy/scoop-bucket-m)
+5. [wps](https://github.com/WinApps-share/WinApps-bucket)
+6. [xmind](https://github.com/wholegale39/onetab)
+7. [wegame](https://github.com/akirco/aki-apps)
 
 ## 安装scoop
     ```
