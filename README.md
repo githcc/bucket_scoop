@@ -13,12 +13,12 @@
 
 ## 安装scoop
     ```
-    # 设置 PowerShell 执行策略
-    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-    # 下载安装脚本
-    irm get.Scoop.sh -outfile 'install.ps1'
-    # 执行安装, --ScoopDir 参数指定 Scoop 安装路径 主要是考虑到假如默认路径含中文
-    .\install.ps1 -ScoopDir 'C:\Scoop'
+      # 设置 PowerShell 执行策略
+      Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+      # 下载安装脚本
+      irm get.Scoop.sh -outfile 'install.ps1'
+      # 执行安装, --ScoopDir 参数指定 Scoop 安装路径 主要是考虑到假如默认路径含中文
+      .\install.ps1 -ScoopDir 'C:\Scoop'
     ```
 
 ## 安装软件
@@ -35,23 +35,19 @@
       scoop install xmind
       scoop install jianying
       scoop install Motrix
-      scoop bucket rm githcc
     ```
 ### 下列版本更新较为频繁
-scoop bucket add Extras https://github.com/ScoopInstaller/Extras
-scoop install nodejs
-scoop install wechat
-scoop bucket rm Extras
-
-### 其它
-Obsidian RaiDrive Typora
+    ```
+      scoop bucket add Extras https://github.com/ScoopInstaller/Extras
+      scoop install nodejs
+      scoop install wechat
+      scoop install apifox
+      scoop install Obsidian
+    ```
 
 ## bucket来源网站
 1.  [Scoop Directory](https://rasa.github.io/scoop-directory/search)
 2.  [scoop官网](https://Scoop.sh/)
-
-## 项目拉取
-[Ash258](https://github.com/Ash258/GenericBucket)
 
 ## 参考
 1. github
