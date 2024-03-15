@@ -19,5 +19,6 @@
             "Typora.exe",
             "Typora"
         ]
-    ]
+    ],
+    "ignoreChecksums": true
 }
