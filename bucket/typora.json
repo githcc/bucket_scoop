@@ -19,22 +19,5 @@
             "Typora.exe",
             "Typora"
         ]
-    ],
-    "checkver": {
-        "script": [
-            "$url = 'https://typora.io/releases/stable'",
-            "$cont = (Invoke-WebRequest $url).Content",
-            "$r = 'typora-setup-x64-([\\d.]+)\\.' ",
-            "if (!($cont -match $r)) { error \"Could not match $r in $url\"; continue }",
-            "$version = $matches[1]",
-            "$r = 'typora-setup-ia32-([\\d.]+)\\.' ",
-            "if (!($cont -match $r)) { error \"Could not match $r in $url\"; continue }",
-            "$ia32 = $matches[1]",
-            "$r = 'typora-setup-arm64-([\\d.]+)\\.' ",
-            "if (!($cont -match $r)) { error \"Could not match $r in $url\"; continue }",
-            "$arm64 = $matches[1]",
-            "Write-Output $version $ia32 $arm64"
-        ],
-        "regex": "([\\d.]+) (?<ia32>[\\d.]+) (?<arm64>[\\d.]+)"
-    }
+    ]
 }

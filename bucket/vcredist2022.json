@@ -20,7 +20,7 @@
         "    1638 = 'This product is already installed';",
         "    3010 = 'A restart is required to complete the installation';",
         "}",
-        "Invoke-ExternalCommand -FilePath \"$dir\\vc_redist.x64.exe\" -ArgumentList '/fo', '/quiet', '/norestart' -ContinueExitCodes $ec -RunAs | Out-Null",
+        "Invoke-ExternalCommand -FilePath \"$dir\\vc_redist.x64.exe\" -ArgumentList '/fo', '/quiet', '/norestart' -ContinueExitCodes $ec -RunAs | Out-Null"
     ],
     "checkver": {
         "script": [
@@ -34,7 +34,7 @@
     },
     "autoupdate": {
         "url": [
-            "https://aka.ms/vs/17/release/vc_redist.x64.exe",
+            "https://aka.ms/vs/17/release/vc_redist.x64.exe"
         ]
     }
 }
