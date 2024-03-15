@@ -10,6 +10,7 @@
 5. [wps](https://github.com/WinApps-share/WinApps-bucket)
 6. [xmind](https://github.com/wholegale39/onetab)
 7. [wegame](https://github.com/akirco/aki-apps)
+8. [anlink](https://github.com/gendloop/gendloopBucket)
 
 ## 安装scoop
     ```
