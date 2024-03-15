@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
     "description": "AnLink，一款手机投屏软件",
-    "url": "https://github.com/gendloop/AnLink/archive/refs/tags/v1.0.0.zip",
+    "url": "https://github.com/githcc/bucket_scoop/raw/main/package/AnLink/AnLink.exe",
     "hash": "bac4d07a897536cbc3ddeaaae2bbae2bed1413762d42b2d424dbeea7554d3647",
     "notes": "Free during beta.",
     "innosetup": true,
@@ -9,12 +9,6 @@
     "checkver": {
         "url": "https://typora.io/windows/dev_release.html",
         "regex": "<h4>([\\d\\.]+)"
-    },
-    "installer": {
-        "script": [
-            "Push-Location \"$dir\"",
-            "7z x AnLink-$version\\dist\\AnLink.7z"
-        ]
     },
     "autoupdate": {
         "architecture": {
