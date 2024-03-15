@@ -3,9 +3,10 @@
     "description": "typora，一款md编辑器，V0.9.93官方无广告版",
     "homepage": "https://typora.io",
     "license": {
-        "identifier": "Proprietary",
+        "identifier": "Freeware",
         "url": "https://support.typora.io/License-Agreement/"
     },
+    "notes": "Free during beta.",
     "architecture": {
         "64bit": {
             "url": "https://github.com/githcc/bucket_scoop/raw/main/package/Typora/typora-setup-x64(V0.9.93).exe",
@@ -13,12 +14,15 @@
         }
     },
     "innosetup": true,
-    "bin": "Typora.exe",
+    "bin": "typora.exe",
     "shortcuts": [
         [
             "Typora.exe",
             "Typora"
         ]
     ],
-    "ignoreChecksums": true
+    "checkver": {
+        "url": "https://typora.io/windows/dev_release.html",
+        "regex": "<h4>([\\d\\.]+)"
+    }
 }
