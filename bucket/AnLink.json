@@ -2,19 +2,8 @@
     "version": "1.0.0",
     "description": "AnLink，一款手机投屏软件",
     "url": "https://github.com/githcc/bucket_scoop/raw/main/package/AnLink/AnLink.exe",
-    "hash": "bac4d07a897536cbc3ddeaaae2bbae2bed1413762d42b2d424dbeea7554d3647",
+    "hash": "43b9e1ff3883286fd751dade597e51bea0f62ff7e621bf100f33067454964052",
     "notes": "Free during beta.",
     "innosetup": true,
-    "bin": "AnLink.exe",
-    "checkver": {
-        "url": "https://typora.io/windows/dev_release.html",
-        "regex": "<h4>([\\d\\.]+)"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://typora.io/windows/typora-setup-x64.exe"
-            }
-        }
-    }
+    "bin": "AnLink.exe"
 }
