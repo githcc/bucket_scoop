@@ -49,6 +49,15 @@
 1.  [Scoop Directory](https://rasa.github.io/scoop-directory/search)
 2.  [scoop官网](https://Scoop.sh/)
 
+## 编写bucket
+1. 查找别人的bucket，直接使用
+2. 修改别人的bucket
+   1. 修改文件
+   2. 修改hash，使用sha
+3. 安装失败时
+   1. 检查语法
+   2. 先查看是否使用的是自己bucket
+
 ## 参考
 1. github
    1. [Scoop](https://github.com/githcc/knowledge_self/blob/main/%E8%BD%AF%E4%BB%B6/%E4%BD%BF%E7%94%A8/Scoop.md)
