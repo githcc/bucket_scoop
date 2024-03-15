@@ -1,0 +1,40 @@
+{
+    "version": "0.9.93",
+    "description": "typora，一款md编辑器，V0.9.93官方无广告版",
+    "homepage": "https://typora.io",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://support.typora.io/License-Agreement/"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/githcc/bucket_scoop/raw/main/package/Typora/typora-setup-x64(V0.9.93).exe",
+            "hash": "128b261ec728156c05a259c4474b008e775fe9ada820b2e53fdacec413b3c749"
+        }
+    },
+    "innosetup": true,
+    "bin": "Typora.exe",
+    "shortcuts": [
+        [
+            "Typora.exe",
+            "Typora"
+        ]
+    ],
+    "checkver": {
+        "script": [
+            "$url = 'https://typora.io/releases/stable'",
+            "$cont = (Invoke-WebRequest $url).Content",
+            "$r = 'typora-setup-x64-([\\d.]+)\\.' ",
+            "if (!($cont -match $r)) { error \"Could not match $r in $url\"; continue }",
+            "$version = $matches[1]",
+            "$r = 'typora-setup-ia32-([\\d.]+)\\.' ",
+            "if (!($cont -match $r)) { error \"Could not match $r in $url\"; continue }",
+            "$ia32 = $matches[1]",
+            "$r = 'typora-setup-arm64-([\\d.]+)\\.' ",
+            "if (!($cont -match $r)) { error \"Could not match $r in $url\"; continue }",
+            "$arm64 = $matches[1]",
+            "Write-Output $version $ia32 $arm64"
+        ],
+        "regex": "([\\d.]+) (?<ia32>[\\d.]+) (?<arm64>[\\d.]+)"
+    }
+}

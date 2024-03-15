@@ -9,7 +9,6 @@
     "notes": "You can now remove this installer with 'scoop uninstall vcredist2022'",
     "url": [
         "https://aka.ms/vs/17/release/vc_redist.x64.exe",
-        "https://aka.ms/vs/17/release/vc_redist.x86.exe"
     ],
     "hash": [
         "4dfe83c91124cd542f4222fe2c396cabeac617bb6f59bdcbdf89fd6f0df0a32f",
@@ -22,7 +21,6 @@
         "    3010 = 'A restart is required to complete the installation';",
         "}",
         "Invoke-ExternalCommand -FilePath \"$dir\\vc_redist.x64.exe\" -ArgumentList '/fo', '/quiet', '/norestart' -ContinueExitCodes $ec -RunAs | Out-Null",
-        "Invoke-ExternalCommand -FilePath \"$dir\\vc_redist.x86.exe\" -ArgumentList '/fo', '/quiet', '/norestart' -ContinueExitCodes $ec -RunAs | Out-Null"
     ],
     "checkver": {
         "script": [
@@ -37,7 +35,6 @@
     "autoupdate": {
         "url": [
             "https://aka.ms/vs/17/release/vc_redist.x64.exe",
-            "https://aka.ms/vs/17/release/vc_redist.x86.exe"
         ]
     }
 }
